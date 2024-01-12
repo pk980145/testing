@@ -1,0 +1,47 @@
+<?php ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <form action="index.php" method="post">
+        <h1>LOGIN</h1>
+        <div>
+            <input type="text" placeholder="Username" name="username">
+        </div>
+        <div>
+            <input type="password" placeholder="Password" name="pwd">
+        </div>
+        <input class="loginbtn" type="submit" value="Login">
+        <div>
+            Don't have an account ?
+            <br>
+            <a href="./signup.php" class="signuphtml">Sign up</a>
+        </div>
+        
+
+        <!-- <?php  
+        $username=$_POST["username"];
+        $pwd=$_POST["pwd"];
+
+        if($username!=null){
+            echo "Username is $username<br>";
+        }
+        if($pwd!=null){
+            echo "Password is $pwd";
+        }
+
+        ?> -->
+
+
+    </form>
+    
+</body>
+</html>
+
